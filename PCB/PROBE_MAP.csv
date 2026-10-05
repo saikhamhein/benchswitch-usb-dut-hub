@@ -1,0 +1,12 @@
+Reference,Net,Local_X_mm,Local_Y_down_mm,Pad_diameter_mm,Note
+TP1,/VIN_DC,92.0,10.0,1.0,Use short ground spring
+TP10,3V3,53.8,45.0,1.0,Use short ground spring
+TP11,GND,48.0,39.0,1.0,Use short ground spring
+TP2,/VIN_PROTECTED,78.0,28.5,1.0,Use short ground spring
+TP3,/5V_BUCK,55.5,44.0,1.0,Use short ground spring
+TP4,5V_SYS,57.0,48.0,1.0,Use short ground spring
+TP5,/OV5_SENSE,64.0,41.9,1.0,Use short ground spring
+TP6,/BUCK_FB,72.2,33.0,0.4,High-resistance low-capacitance probe only; prefer rail measurement
+TP7,GND,73.7,29.8,1.0,Use short ground spring
+TP8,GND,55.0,46.6,1.0,Use short ground spring
+TP9,GND,57.0,44.0,1.0,Use short ground spring

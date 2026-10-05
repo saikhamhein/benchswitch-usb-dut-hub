@@ -1,0 +1,5 @@
+The retained nominal/display STEP models and simple Crystal5032/LiteOn VRML envelopes are drawing-derived representations created for this project. They are not manufacturer-certified CAD or mechanical-fit qualification. Cosmetic features and production markings are simplified.
+
+Retained KiCad package models preserve their embedded attribution and license headers. The GPL-3.0-or-later and CC-BY-SA 4.0 assets have different electronic-design exceptions; see doc/THIRD_PARTY.md and the included license texts.
+
+Only locally referenced models needed by the retained board or footprint templates are included. Optional Wurth and Phoenix vendor solids are excluded; official product/download links are in doc/THIRD_PARTY.md. Those omissions do not change selected component identities or 2D PCB geometry.

@@ -1,0 +1,25 @@
+# BenchSwitch USB DUT Hub: prototype bring-up
+
+R5-LCSC target: **regulated 12–24 V DC input; four USB 2.0 ports; 1 A per port and 2 A total DUT load**. Internal board consumption is additional. The input fuse and port current limits do not establish safety with arbitrary adapters or industrial transients. Follow [build and mounting checks](BUILD.md) first.
+
+## Before attaching DUTs
+
+Use a current-limited bench source, suitable dummy loads and appropriately rated instruments. Start with all DUTs disconnected. Inspect polarity, soldering, resistor values, DNP sites and mounting insulation. Stop on unexpected current, heating, rail voltage or oscillation and investigate before increasing load. Remove input power before mating or unmating the Phoenix terminal.
+
+Measure the raw 5 V rail, protected 5 V rail and 3.3 V rail before connecting DUTs. Useful points are **TP3 `/5V_BUCK`**, **TP4 `5V_SYS`** and **TP10 `3V3`**; use nearby ground points and `PCB/PROBE_MAP.csv`. The nominal buck set point is approximately 5.088 V; that is not a guaranteed connector voltage or a tolerance limit.
+
+## Required checks
+
+1. **Reset and enable safety.** Verify hub reset releases only after downstream 3.3 V is valid. Keep battery charging disabled so USB2514 PRTPWR is removed during reset. All four CH217A EN# nodes must stay high/off until hub control is valid. Repeat during brownout, input collapse and overvoltage recovery.
+2. **Startup and inrush.** Test cold start, each port independently, all-four enable, `uhubctl` batch commands and repeated cycling with the four 220 µF port capacitors discharged. Combined adjustable switch limits can exceed the buck's 3.5 A rating. Reset default-off does not prove simultaneous-enable behavior. Timing-capacitor sites are DNP and provide no staggering. If experimenting with them, revalidate reset straps, turn-off and discharge timing.
+3. **Regulation and transients.** At both 12 V and 24 V input, test no DUT load, hub only, each port at 1 A in turn, and two ports totaling 2 A. Observe startup, abrupt load application/removal, disconnect, supply ramp and collapse. Check ringing, oscillation, pulse-skipping and audible noise. The SCT regulator has no forced-PWM mode; calculations and example circuits do not prove this board's loop stability.
+4. **Voltage and temperature.** At thermal steady state, measure voltage at the actual USB receptacles, including guard, switch, copper and contact losses. Record ambient conditions and the intended mounting/airflow arrangement. Check buck, inductor, capacitors, LDO, port switches and connectors at both input voltages. Repeat after changes to mounting or ventilation. CH217A's 110 mΩ maximum is specified at 25 °C, and the board does not inherit a reference PCB's thermal resistance. Reduce usable load if measurements require it.
+5. **Fault behavior.** Using dummy loads only, test controlled overload/short-circuit waveforms, per-port overcurrent reporting, fault selectivity and hiccup recovery. Inspect inductor current for a saturation knee, overshoot and heating. For controlled raw-rail overvoltage ramps/steps, measure protected-rail overshoot, cutoff delay, recovery and downstream reset. ETA7014's screened static rising threshold is approximately **5.30–5.79 V**; it is not a hard 5.5 V or 6 V clamp. CH217A has a **6 V absolute maximum**. Do not expose real DUTs during fault qualification or infer transient safety from the static threshold. Combined 36–39 V input transients and a failed buck are outside the protection claim.
+6. **USB and host control.** Verify individual overcurrent flags, independent on/off/cycle control and reliable re-enumeration with the actual host OS, cables and each DUT speed. Check actual USB2514B silicon revision and oscillator startup/drive. For A2 silicon, erratum Module 4 can miss a fast full-/low-speed detach/re-attach: apply more than 100 µs uninterrupted SE0 with the pull-up removed, or the applicable host Port Reset after host-commanded detach. Test normal long VBUS cycles as well. Consult the [Microchip errata](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/Errata/USB251xB-xBi-Errata-DS80000627D.pdf).
+7. **Physical checks.** With actual hardware, verify connector mating/removal, cable retention, mounting strength and insulation under insertion forces. Physical fit and thermal tests are required even when CAD checks pass.
+
+## Probe carefully
+
+Use short ground-spring connections on power rails. Prefer measuring the rail instead of TP6 `/BUCK_FB`; feedback probing requires high input resistance and low capacitance. With the 53.6 kΩ upper divider and 0.8 V reference, a DC shunt probe shifts the set point by approximately 4.29 mV at 10 MΩ or 42.9 mV at 1 MΩ before other effects. Avoid long ground leads near the switch node.
+
+Record measured conditions, limits and results for each built board. No completed hardware qualification, guaranteed thermal rating or USB signal-integrity certification is implied by this checklist.

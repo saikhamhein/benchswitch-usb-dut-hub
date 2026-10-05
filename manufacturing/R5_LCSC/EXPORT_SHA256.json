@@ -1,0 +1,18 @@
+{
+  "revision": "R5-LCSC",
+  "scope": "Hashes of preserved manufacturing payloads; not a new export or electrical validation. Legacy filenames remain intentional.",
+  "files": {
+    "DIN_USB_Hub_A8_R5_LCSC_Gerber.zip": "c5f603995dab3b21ddbc3d8d398c2120dccd8df81cac634eaf1f0905b6128402",
+    "LCSC_PROCUREMENT_PER_BOARD.csv": "0a885ffde9fc84e5859582971ad4aed29c8e4a205d915f38aa2d27313916c661",
+    "assembly/ACCESSORY_BOM.csv": "6d4d1c083a6d41371fe0ee4388ab74bef2a31dd4db88ad562230d7b8042c46bc",
+    "assembly/BOM_exact_per_reference.csv": "2bec19f4e4275a2a7a855097d73555677ebcab2f027ec667174163bc7f0a2b63",
+    "assembly/JLC_BOM_QUOTE_ONLY.csv": "13942f71b7fbc5b48dc8321e1729c490a9cd4fce3578ab0906c595274506980a",
+    "assembly/JLC_CPL_QUOTE_ONLY.csv": "1955aea10c67791b52ed1ec34a279eaf3b40bfca32f2fd828e85778f076f6f73",
+    "assembly/PLACEMENT_PAD_DATUMS.json": "c8e2fcb49170338937fe87cb4aa2160944e02c5f9bfd3531b877220785f3fc87",
+    "assembly/netlist.xml": "5aceb88c383b3da2ee0926a3e458d6efe2aa976eba7226daa18ac71ec0a878e7",
+    "assembly/positions_all.csv": "45a7148444685a78371d3f2b85f4832e3056e27a9984e6534ce2695bbfb695ef",
+    "validation/ACTUAL_GERBER_HOLE_PASTE.json": "ca4edf04cb2bd23039f0cd6ac3fe19735ed1dba1630b5c5de1b45f272c1a9d1b",
+    "validation/DRC.json": "59e43dbb7768f2ef8b5f3a47f4f5cd0a1f1eea1b1e4a7a57ffbaa3aa7ed0bce0",
+    "validation/ERC.json": "a50968a25b27d63eee7a72fd141be155f4383426a377d09c22557e7de929d226"
+  }
+}

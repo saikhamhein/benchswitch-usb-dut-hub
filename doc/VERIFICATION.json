@@ -1,0 +1,84 @@
+{
+  "project": "BenchSwitch USB DUT Hub",
+  "hardware_revision": "R5-LCSC",
+  "checked_on": "2026-10-05",
+  "kicad_version": "10.0.6",
+  "scope": "Automated CAD checks under the configured rules. No physical, thermal, USB interoperability, controlled-impedance, assembly-process or protection qualification. Manufacturing payloads were not regenerated for this cleanup.",
+  "source_sha256": {
+    "PCB/BenchSwitch_USB_DUT_Hub.kicad_pcb": "99acaf290c44bc4afc88f56248238f9ad527120c69160e644f6bb5a8b0ffbce1",
+    "PCB/BenchSwitch_USB_DUT_Hub.kicad_sch": "3f84f6705e8186c79eda32a023361790b359711e7b37046b64d9ebf3257eb9f0",
+    "PCB/BenchSwitch_USB_DUT_Hub.kicad_pro": "28e7380a95dc40b25ce5c712dfec4a574b94c4594c78e2d0a3cbde88ca9c3625",
+    "PCB/BenchSwitch_USB_DUT_Hub.kicad_dru": "d57befa4ca3a6c3fc53a6464189283ef4e11d18b5386d4b5b951dfd6672c7f32",
+    "PCB/DUT_Custom.kicad_sym": "463d4717b870f8e24fefdf6aa6c6f6f332ef3fa2716f3c742cd6c962dab853aa"
+  },
+  "erc": {
+    "findings": 0,
+    "included_severities": [
+      "error",
+      "warning",
+      "exclusion"
+    ],
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity_findings": 0,
+    "included_severities": [
+      "error",
+      "warning",
+      "exclusion"
+    ],
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "PTH inside courtyard",
+        "key": "pth_inside_courtyard"
+      },
+      {
+        "description": "NPTH inside courtyard",
+        "key": "npth_inside_courtyard"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ]
+  },
+  "source_report_sha256": {
+    "ERC.json": "2e859df09c78b858cf163a8d850e00240d53c6b9af27c9e6e4a836a3b2eb6211",
+    "DRC.json": "28b5a1be0e894371679297ff12ea8c4d2080bd3b01f7bbec5cb79ae956eb0654"
+  }
+}

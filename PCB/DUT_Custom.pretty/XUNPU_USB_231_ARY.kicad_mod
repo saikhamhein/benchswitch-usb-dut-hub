@@ -1,0 +1,15 @@
+(footprint "XUNPU_USB_231_ARY" (version 20241229) (generator "pcbnew") (layer "F.Cu") (attr through_hole) (descr "XUNPU USB-231-ARY RevA solder-side drawing converted to component view; mouth y13.33;1.5A")
+(property "Reference" "REF**" (at 0 -3) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(property "Value" "XUNPU_USB_231_ARY" (at 0 5) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(fp_rect (start -7.25 -0.87) (end 7.25 13.33) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+
+(pad "1" thru_hole rect (at -3.5 0) (size 1.5 1.5) (drill 0.92) (layers "*.Cu" "*.Mask"))
+(pad "2" thru_hole circle (at -1 0) (size 1.5 1.5) (drill 0.92) (layers "*.Cu" "*.Mask"))
+(pad "3" thru_hole circle (at 1 0) (size 1.5 1.5) (drill 0.92) (layers "*.Cu" "*.Mask"))
+(pad "4" thru_hole circle (at 3.5 0) (size 1.5 1.5) (drill 0.92) (layers "*.Cu" "*.Mask"))
+(pad "5" thru_hole circle (at -6.6 3.01) (size 3.3 3.3) (drill 2.3) (layers "*.Cu" "*.Mask"))
+(pad "5" thru_hole circle (at 6.6 3.01) (size 3.3 3.3) (drill 2.3) (layers "*.Cu" "*.Mask"))
+(model "${KIPRJMOD}/models/display/XUNPU_USB_231_ARY_display.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+
+(fp_poly (pts (xy -8.05 -1.35) (xy 8.05 -1.35) (xy 8.05 1.1) (xy 8.5 1.1) (xy 8.5 4.92) (xy 8.05 4.92) (xy 8.05 13.85) (xy -8.05 13.85) (xy -8.05 4.92) (xy -8.5 4.92) (xy -8.5 1.1) (xy -8.05 1.1)) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (uuid "28271771-bfa8-4cad-938b-3d556bbbda8f"))
+)

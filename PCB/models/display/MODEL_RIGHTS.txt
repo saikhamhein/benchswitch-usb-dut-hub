@@ -1,0 +1,1 @@
+The retained SCT2433, Sunlord and XUNPU display models are original simplified geometry created for this project from dimensional facts, not copied vendor solids. They are not manufacturer-certified or exact mechanical-fit evidence. No project-wide license is assigned here. Other KiCad library assets retain their own embedded notices; see doc/THIRD_PARTY.md.

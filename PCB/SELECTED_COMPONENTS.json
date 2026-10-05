@@ -1,0 +1,661 @@
+{
+  "revision": "R5-LCSC",
+  "fitted_count": 131,
+  "parts": [
+    {
+      "ref": "C1",
+      "mpn": "0805B475K160NT",
+      "lcsc": "C880382"
+    },
+    {
+      "ref": "C2",
+      "mpn": "0805B475K160NT",
+      "lcsc": "C880382"
+    },
+    {
+      "ref": "C26",
+      "mpn": "0805B475K160NT",
+      "lcsc": "C880382"
+    },
+    {
+      "ref": "C4",
+      "mpn": "0805B475K160NT",
+      "lcsc": "C880382"
+    },
+    {
+      "ref": "C10",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C11",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C14",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C21",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C22",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C23",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C24",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C25",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C70",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C71",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C72",
+      "mpn": "1206B475K500NT",
+      "lcsc": "C29823"
+    },
+    {
+      "ref": "C101",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C104",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C201",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C204",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C301",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C304",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C401",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C404",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C12",
+      "mpn": "CL10C330JB8NNNC",
+      "lcsc": "C1663"
+    },
+    {
+      "ref": "C13",
+      "mpn": "CL10C330JB8NNNC",
+      "lcsc": "C1663"
+    },
+    {
+      "ref": "C20",
+      "mpn": "CC0402KRX7R8BB104",
+      "lcsc": "C105883"
+    },
+    {
+      "ref": "C27",
+      "mpn": "CC0402KRX7R8BB104",
+      "lcsc": "C105883"
+    },
+    {
+      "ref": "C60",
+      "mpn": "1206B475K500NT",
+      "lcsc": "C29823"
+    },
+    {
+      "ref": "C61",
+      "mpn": "1206B475K500NT",
+      "lcsc": "C29823"
+    },
+    {
+      "ref": "C80",
+      "mpn": "1206B475K500NT",
+      "lcsc": "C29823"
+    },
+    {
+      "ref": "C63",
+      "mpn": "CC0603KRX7R9BB104",
+      "lcsc": "C14663"
+    },
+    {
+      "ref": "C64",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C65",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C66",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C67",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C68",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C69",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C82",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C83",
+      "mpn": "CL31B106KBHNFNE",
+      "lcsc": "C913957"
+    },
+    {
+      "ref": "C73",
+      "mpn": "SPZ1HM470E08O00RAXXX",
+      "lcsc": "C122243"
+    },
+    {
+      "ref": "C74",
+      "mpn": "SPZ1HM221G12O00RAXXX",
+      "lcsc": "C2691846"
+    },
+    {
+      "ref": "C76",
+      "mpn": "SPZ1HM221G12O00RAXXX",
+      "lcsc": "C2691846"
+    },
+    {
+      "ref": "C77",
+      "mpn": "SPZ1HM221G12O00RAXXX",
+      "lcsc": "C2691846"
+    },
+    {
+      "ref": "C102",
+      "mpn": "CC0805KKX7R7BB106",
+      "lcsc": "C326595"
+    },
+    {
+      "ref": "C202",
+      "mpn": "CC0805KKX7R7BB106",
+      "lcsc": "C326595"
+    },
+    {
+      "ref": "C302",
+      "mpn": "CC0805KKX7R7BB106",
+      "lcsc": "C326595"
+    },
+    {
+      "ref": "C402",
+      "mpn": "CC0805KKX7R7BB106",
+      "lcsc": "C326595"
+    },
+    {
+      "ref": "C103",
+      "mpn": "ERS1AM221E11OT",
+      "lcsc": "C106640"
+    },
+    {
+      "ref": "C203",
+      "mpn": "ERS1AM221E11OT",
+      "lcsc": "C106640"
+    },
+    {
+      "ref": "C303",
+      "mpn": "ERS1AM221E11OT",
+      "lcsc": "C106640"
+    },
+    {
+      "ref": "C403",
+      "mpn": "ERS1AM221E11OT",
+      "lcsc": "C106640"
+    },
+    {
+      "ref": "D6",
+      "mpn": "SMCJ24CA-13-F",
+      "lcsc": "C135155"
+    },
+    {
+      "ref": "D7",
+      "mpn": "BZT52H-C12,115",
+      "lcsc": "C282531"
+    },
+    {
+      "ref": "D8",
+      "mpn": "STPS5L60S",
+      "lcsc": "C140620"
+    },
+    {
+      "ref": "D101",
+      "mpn": "LTST-S270KGKT",
+      "lcsc": "C125113"
+    },
+    {
+      "ref": "D201",
+      "mpn": "LTST-S270KGKT",
+      "lcsc": "C125113"
+    },
+    {
+      "ref": "D301",
+      "mpn": "LTST-S270KGKT",
+      "lcsc": "C125113"
+    },
+    {
+      "ref": "D401",
+      "mpn": "LTST-S270KGKT",
+      "lcsc": "C125113"
+    },
+    {
+      "ref": "F1",
+      "mpn": "0451005.MRL",
+      "lcsc": "C48467"
+    },
+    {
+      "ref": "J1",
+      "mpn": "1757242",
+      "lcsc": "C90074"
+    },
+    {
+      "ref": "J2",
+      "mpn": "USB-B10-BRW",
+      "lcsc": "C720549"
+    },
+    {
+      "ref": "J11",
+      "mpn": "USB-231-ARY",
+      "lcsc": "C720525"
+    },
+    {
+      "ref": "J12",
+      "mpn": "USB-231-ARY",
+      "lcsc": "C720525"
+    },
+    {
+      "ref": "J13",
+      "mpn": "USB-231-ARY",
+      "lcsc": "C720525"
+    },
+    {
+      "ref": "J14",
+      "mpn": "USB-231-ARY",
+      "lcsc": "C720525"
+    },
+    {
+      "ref": "L6",
+      "mpn": "MNR8065T100MT",
+      "lcsc": "C18222125"
+    },
+    {
+      "ref": "Q6",
+      "mpn": "AOD409",
+      "lcsc": "C36220"
+    },
+    {
+      "ref": "R1",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R2",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R10",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R11",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R12",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R13",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R101",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R201",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R301",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R401",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R14",
+      "mpn": "0603WAF1202T5E",
+      "lcsc": "C22790"
+    },
+    {
+      "ref": "R15",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R60",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R71",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R102",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R202",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R302",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R402",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R61",
+      "mpn": "0603WAF1003T5E",
+      "lcsc": "C25803"
+    },
+    {
+      "ref": "R62",
+      "mpn": "0603WAF1302T5E",
+      "lcsc": "C22797"
+    },
+    {
+      "ref": "R65",
+      "mpn": "ERA-3AEB5362V",
+      "lcsc": "C2074540"
+    },
+    {
+      "ref": "R66",
+      "mpn": "RT0603BRD0710KL",
+      "lcsc": "C95204"
+    },
+    {
+      "ref": "R69",
+      "mpn": "RT0603BRD076K8L",
+      "lcsc": "C861539"
+    },
+    {
+      "ref": "R70",
+      "mpn": "PTFR0603B2K00P9",
+      "lcsc": "C328425"
+    },
+    {
+      "ref": "R72",
+      "mpn": "0603WAF1000T5E",
+      "lcsc": "C22775"
+    },
+    {
+      "ref": "R103",
+      "mpn": "0603WAF5102T5E",
+      "lcsc": "C23196"
+    },
+    {
+      "ref": "R203",
+      "mpn": "0603WAF5102T5E",
+      "lcsc": "C23196"
+    },
+    {
+      "ref": "R303",
+      "mpn": "0603WAF5102T5E",
+      "lcsc": "C23196"
+    },
+    {
+      "ref": "R403",
+      "mpn": "0603WAF5102T5E",
+      "lcsc": "C23196"
+    },
+    {
+      "ref": "R104",
+      "mpn": "ERJ-P06F4700V",
+      "lcsc": "C441978"
+    },
+    {
+      "ref": "R204",
+      "mpn": "ERJ-P06F4700V",
+      "lcsc": "C441978"
+    },
+    {
+      "ref": "R304",
+      "mpn": "ERJ-P06F4700V",
+      "lcsc": "C441978"
+    },
+    {
+      "ref": "R404",
+      "mpn": "ERJ-P06F4700V",
+      "lcsc": "C441978"
+    },
+    {
+      "ref": "R105",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162"
+    },
+    {
+      "ref": "R205",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162"
+    },
+    {
+      "ref": "R305",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162"
+    },
+    {
+      "ref": "R405",
+      "mpn": "0603WAF4701T5E",
+      "lcsc": "C23162"
+    },
+    {
+      "ref": "U1",
+      "mpn": "AP2112K-3.3TRG1",
+      "lcsc": "C51118"
+    },
+    {
+      "ref": "U2",
+      "mpn": "USBLC6-2SC6",
+      "lcsc": "C7519"
+    },
+    {
+      "ref": "U21",
+      "mpn": "USBLC6-2SC6",
+      "lcsc": "C7519"
+    },
+    {
+      "ref": "U22",
+      "mpn": "USBLC6-2SC6",
+      "lcsc": "C7519"
+    },
+    {
+      "ref": "U23",
+      "mpn": "USBLC6-2SC6",
+      "lcsc": "C7519"
+    },
+    {
+      "ref": "U24",
+      "mpn": "USBLC6-2SC6",
+      "lcsc": "C7519"
+    },
+    {
+      "ref": "U3",
+      "mpn": "USB2514B-AEZC-TR",
+      "lcsc": "C16251"
+    },
+    {
+      "ref": "U4",
+      "mpn": "APX803S00-31SR-7",
+      "lcsc": "C2067620"
+    },
+    {
+      "ref": "U6",
+      "mpn": "SCT2433STER",
+      "lcsc": "C509399"
+    },
+    {
+      "ref": "U7",
+      "mpn": "ETA7014S2G",
+      "lcsc": "C7465500"
+    },
+    {
+      "ref": "U11",
+      "mpn": "CH217A",
+      "lcsc": "C54973763"
+    },
+    {
+      "ref": "U12",
+      "mpn": "CH217A",
+      "lcsc": "C54973763"
+    },
+    {
+      "ref": "U13",
+      "mpn": "CH217A",
+      "lcsc": "C54973763"
+    },
+    {
+      "ref": "U14",
+      "mpn": "CH217A",
+      "lcsc": "C54973763"
+    },
+    {
+      "ref": "Y1",
+      "mpn": "XL1EL89CSI-111YLC-24M",
+      "lcsc": "C18214302"
+    },
+    {
+      "ref": "Q11",
+      "mpn": "MMBT3904LT1G",
+      "lcsc": "C81464"
+    },
+    {
+      "ref": "R106",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R107",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "Q12",
+      "mpn": "MMBT3904LT1G",
+      "lcsc": "C81464"
+    },
+    {
+      "ref": "R206",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R207",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "Q13",
+      "mpn": "MMBT3904LT1G",
+      "lcsc": "C81464"
+    },
+    {
+      "ref": "R306",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R307",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "Q14",
+      "mpn": "MMBT3904LT1G",
+      "lcsc": "C81464"
+    },
+    {
+      "ref": "R406",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    },
+    {
+      "ref": "R407",
+      "mpn": "RC0603FR-0710KL",
+      "lcsc": "C98220"
+    }
+  ]
+}

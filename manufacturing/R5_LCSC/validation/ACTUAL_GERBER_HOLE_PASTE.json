@@ -1,0 +1,8 @@
+{
+  "board_sha256": "f191ef54b9ff17fe2806863eeeccd772ebb1ec52cac4ed542c42a55d588da84e",
+  "gerber_sha256": "d0c4f42f8b8ebb3e58641f9d5a28da8721729119d2f1892b394baafd4e0cd203",
+  "checked_holes": 386,
+  "paste_items": 349,
+  "intersections": [],
+  "method": "Actual Gerber flash/region polygons including footprint graphics; drill circles against paste polygons. Circular polygon approximation <=3degrees. All current drills circular."
+}
